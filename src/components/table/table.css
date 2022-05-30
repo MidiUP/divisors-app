@@ -1,0 +1,43 @@
+.table {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-numbers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.input-numbers-button {
+    border: none;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    width: 12%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    padding: 5px;
+}
+
+.input-numbers-button:hover {
+    background-color: #d8d6d6;
+}
+
+.input-numbers-button:disabled {
+    background-color: #949494;
+}
+
+.input-numbers-button span{
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 1em;
+}
